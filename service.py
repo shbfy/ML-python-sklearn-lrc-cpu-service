@@ -51,7 +51,7 @@ class Wine(object):
 
 # API Handler for example message
 class Intro(object):
-    """Example of invoking the endpoint for classifying a wines from the UCI Wine dataset"""
+    """Example of invoking the endpoint for classifying wines from the UCI Wine dataset"""
 
     def on_get(self, req, resp):
         resp.body = '{"message": \
